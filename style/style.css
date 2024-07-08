@@ -261,7 +261,7 @@ button {
 .subscribe{
     background-color: rgba(255, 0, 0, 0.05);
     width: 1320px;
-    height: 650px;
+    height: 610px;
     margin: 0 auto;
 }
 input[type="email"],input[type="submit"]{
@@ -274,4 +274,41 @@ input[type="email"],input[type="submit"]{
 input[type="submit"]{
     background-color: red;
     color: aliceblue;
+}
+
+/* footer section */
+.footer{
+    width: 1600px;
+    height: 610px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.footer-content{
+   color: white; 
+   display: flex;
+   justify-content: space-around;
+}
+.para ,.contact{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 120px;
+}
+.footer-img{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-end{
+    color: white;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
 }
