@@ -195,7 +195,7 @@ button {
 }
 
 /* holiday section */
-.holiday{
+.holiday {
     width: 1068px;
     display: flex;
     flex-direction: column;
@@ -207,4 +207,71 @@ button {
 .holiday h3 {
     font-size: 72px;
     font-weight: 900;
+}
+
+/* positioning section */
+.positioning {
+    position: relative;
+    width: 1320px;
+    height: 660px;
+    margin: 120px auto;
+}
+
+.red-img {
+    position: absolute;
+    top: 65%;
+}
+
+.gift-box {
+    position: relative;
+    /* z-index: 1; */
+    bottom: 5%;
+}
+
+.discount-img {
+    position: relative;
+    bottom: 90%;
+    left: 70%;
+}
+
+/* portfolio ssection */
+.portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 120px auto;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+/* subscribe section */
+.Subscribe-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 820px;
+    margin: 80px auto;
+}
+.Subscribe-content img{
+    margin-top: 100px;
+}
+.subscribe{
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 650px;
+    margin: 0 auto;
+}
+input[type="email"],input[type="submit"]{
+    padding: 10px;
+   font-size:23px;
+   height: 64px;
+   border-radius: 15px;
+   border-collapse: collapse;
+}
+input[type="submit"]{
+    background-color: red;
+    color: aliceblue;
 }
